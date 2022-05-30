@@ -1,0 +1,23 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Lobster', cursive;
+    font-size:50px;
+    }
+    #title{
+    width:100%;
+    }
+
+.buttons{
+border-radius:25px;
+border:5px red ridge;
+background-color:cyan;
+margin:15px;
+font-size:25px;
+}
+#buttonholder{
+float:right;
+margin:10px;
+}

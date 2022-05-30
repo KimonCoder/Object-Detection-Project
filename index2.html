@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Object Detection</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+     <div id="title" class="btn btn-info"><h2>Object Detection</h2></div>
+    <br>
+ <h2 id="status" class="btn btn-danger" style="font-size:30px;">Status = <span id="object"></span></h2>
+<br>
+</center>
+<div id="buttonholder">
+<button class="img-fluid buttons" onclick="redirect()">Object Dog_Cat</button><br>
+<button class="img-fluid buttons" onclick="redirect1()">Object Cars</button><br>
+<button class="img-fluid buttons" onclick="redirect2()">Object Computer</button><br>
+<button class="img-fluid buttons" onclick="redirect3()">Object Tv</button><br>
+</div>
+<script src="main2.js"></script>
+</body>
+</html>
